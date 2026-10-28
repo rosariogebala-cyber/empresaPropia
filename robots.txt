@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rosariogebala-cyber.github.io/empresaPropia/sitemap.xml
