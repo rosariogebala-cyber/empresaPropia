@@ -7,7 +7,7 @@
 
 /* Sistema visual actualizado: Google Fonts, Light y hero comercial */
 body, p, li, input, select, textarea, button, .navlinks, .eyebrow {font-family:'Instrument Sans',Arial,sans-serif}
-h1,h2,h3,.brand,.price,.plan .price {font-family:'Outfit',Arial,sans-serif!important;font-weight:300!important;letter-spacing:-.025em!important;line-height:1.18!important}
+h1,h2,h3,.brand,.price,.plan .price {font-family:'Inter',Arial,sans-serif!important;font-weight:300!important;letter-spacing:-.025em!important;line-height:1.18!important}
 h1 em,h2 em {font-family:Georgia,serif!important;font-style:italic;font-weight:400!important}
 .hero {padding-top:clamp(56px,7vw,110px);padding-bottom:clamp(50px,6vw,90px)}
 .hero-copy {max-width:100%;padding:0;margin:0 0 42px}
@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,
 .plan h3,.process-list h3,.steps h3,
 .price,.plan .price,.process-number,.brand,
 .visual figcaption strong,.steps b {
-  font-family:'Outfit',Arial,sans-serif!important;
+  font-family:'Inter',Arial,sans-serif!important;
   font-weight:300!important;
   font-synthesis:none;
 }
@@ -39,7 +39,7 @@ h1 em,h2 em,h3 em {font-weight:400!important}
 .button,.eyebrow,.navlinks,.contact-form label {font-weight:400}
 
 /* Hero: Outfit Thin real (100), prevalece sobre reglas anteriores */
-.hero h1 {font-family:'Outfit',Arial,sans-serif!important;font-weight:100!important;font-synthesis:none}
+.hero h1 {font-family:'Inter',Arial,sans-serif!important;font-weight:100!important;font-synthesis:none}
 
 /* Contraste editorial en el título principal */
 .hero h1 .hero-serif {font-family:Georgia,serif!important;font-weight:400!important;letter-spacing:-.035em!important}
