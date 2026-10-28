@@ -43,3 +43,11 @@ h1 em,h2 em,h3 em {font-weight:400!important}
 
 /* Contraste editorial en el título principal */
 .hero h1 .hero-serif {font-family:Georgia,serif!important;font-weight:400!important;letter-spacing:-.035em!important}
+
+/* QA responsive, accesibilidad y sección legal */
+html{scroll-padding-top:90px}body{overflow-x:hidden}
+img{max-width:100%;height:auto}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #5b9e75;outline-offset:3px}
+.legal-section{padding-block:72px}.legal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.legal-grid article{padding-top:22px;border-top:1px solid #cad7ca}.legal-grid p{line-height:1.75;max-width:65ch}.legal-note{font-size:13px;opacity:.75;line-height:1.7}
+@media(max-width:768px){.legal-grid{grid-template-columns:1fr}.hero h1{overflow-wrap:break-word}.hero-pills{flex-wrap:wrap}.section{overflow-wrap:break-word}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
