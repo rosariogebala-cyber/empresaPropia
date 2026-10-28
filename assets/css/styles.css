@@ -51,3 +51,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .legal-section{padding-block:72px}.legal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.legal-grid article{padding-top:22px;border-top:1px solid #cad7ca}.legal-grid p{line-height:1.75;max-width:65ch}.legal-note{font-size:13px;opacity:.75;line-height:1.7}
 @media(max-width:768px){.legal-grid{grid-template-columns:1fr}.hero h1{overflow-wrap:break-word}.hero-pills{flex-wrap:wrap}.section{overflow-wrap:break-word}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* Regla editorial: evitar viudas y cortes tipográficos aislados */
+h1,h2,h3,h4,h5,h6,.hero-subheadline,.section-head p,.plan h3,.process-list h3{
+  text-wrap:balance;
+}
+p,li,figcaption,.plan li,.legal-grid p,.legal-note{
+  text-wrap:pretty;
+  orphans:2;
+  widows:2;
+}
+@supports not (text-wrap:pretty){
+  p,li,figcaption{overflow-wrap:normal;word-break:normal}
+}
