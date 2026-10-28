@@ -4,3 +4,22 @@
 
 /* Recorrido de contratación */
 .process-section{background:#dcebdd}.process-section .section-head{margin-bottom:55px}.process-section .section-head h2 em{font-family:Georgia,serif;font-weight:400}.process-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid #a9c2ad}.process-list li{padding:27px 23px 26px 0;border-bottom:1px solid #a9c2ad;min-width:0}.process-number{display:block;font-family:Manrope,sans-serif;font-size:42px;font-weight:500;letter-spacing:-.08em;color:#517a62;margin-bottom:45px}.process-list h3{font-size:21px;line-height:1.22;margin:0 0 14px}.process-list p{font-size:14px;line-height:1.65;color:#4e6859;margin:0}.process-cta{margin-top:36px}@media(max-width:1050px){.process-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px}.process-number{margin-bottom:28px}}@media(max-width:720px){.process-list{grid-template-columns:1fr}.process-list li{display:grid;grid-template-columns:55px 1fr;gap:15px;padding:24px 0}.process-number{font-size:30px;margin:0}.process-list h3{font-size:20px}.process-section .section-head{margin-bottom:35px}}
+
+/* Sistema visual actualizado: Google Fonts, Light y hero comercial */
+body, p, li, input, select, textarea, button, .navlinks, .eyebrow {font-family:'Instrument Sans',Arial,sans-serif}
+h1,h2,h3,.brand,.price,.plan .price {font-family:'Outfit',Arial,sans-serif!important;font-weight:300!important;letter-spacing:-.025em!important;line-height:1.18!important}
+h1 em,h2 em {font-family:Georgia,serif!important;font-style:italic;font-weight:400!important}
+.hero {padding-top:clamp(56px,7vw,110px);padding-bottom:clamp(50px,6vw,90px)}
+.hero-copy {max-width:100%;padding:0;margin:0 0 42px}
+.hero-copy h1 {font-size:clamp(2.9rem,6vw,6.4rem)!important;line-height:1.13!important;max-width:1100px;margin:20px 0 18px}
+.hero-subheadline {font-size:clamp(1.45rem,2.8vw,2.8rem)!important;line-height:1.25!important;margin:0 0 20px}
+.hero-description {font-size:clamp(1rem,1.3vw,1.15rem);line-height:1.7;max-width:730px}
+.hero-pills {display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 0}
+.hero-pill {display:inline-flex;align-items:center;border:1px solid #c6d9c9;background:#e5eee5;color:#153c31;border-radius:100px;padding:10px 16px;font-size:.86rem;line-height:1.3;white-space:nowrap}
+.hero-photo {margin-top:0}
+.section h2 {line-height:1.2!important}
+.plan h3 {line-height:1.25!important}
+.container {width:calc(100% - 80px);max-width:1360px;margin-inline:auto}
+.site-header .container.nav {width:100%;max-width:none;padding-inline:40px}
+@media(max-width:991px){.container{width:calc(100% - 56px)}.site-header .container.nav{padding-inline:28px}}
+@media(max-width:600px){.container{width:calc(100% - 36px)}.site-header .container.nav{padding-inline:18px}.hero-copy h1{font-size:clamp(2.6rem,10vw,4rem)!important}.hero-pill{white-space:normal}}
