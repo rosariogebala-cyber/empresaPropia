@@ -37,3 +37,6 @@ h1,h2,h3,h4,h5,h6,
 h1 em,h2 em,h3 em {font-weight:400!important}
 .visual figcaption strong {display:inline;font-size:18px}
 .button,.eyebrow,.navlinks,.contact-form label {font-weight:400}
+
+/* Hero: Outfit Thin real (100), prevalece sobre reglas anteriores */
+.hero h1 {font-family:'Outfit',Arial,sans-serif!important;font-weight:100!important;font-synthesis:none}
