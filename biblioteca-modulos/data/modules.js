@@ -10,7 +10,7 @@ window.NEXOIA_MODULES = [
         "nombre": "Simple",
         "imagen": "assets/modulos/navegacion/simple.png",
         "ancho": 800,
-        "alto": 54
+        "alto": 64
       },
       {
         "nombre": "Media",
