@@ -16,7 +16,7 @@ window.NEXOIA_MODULES = [
         "nombre": "Media",
         "imagen": "assets/modulos/navegacion/media.png",
         "ancho": 800,
-        "alto": 145
+        "alto": 54
       },
       {
         "nombre": "Compleja",
